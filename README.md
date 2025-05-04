@@ -72,4 +72,14 @@ In your `users` table, manually set `is_admin = 1` for any user to grant admin p
 Kevin Ceausu  
 Student ID: B00128171
 
+##  Testing
+
+Basic unit and manual testing was performed for:
+
+- Database connection 
+- Cart total calculation
+- Admin-only access to protected pages
+- Stock update after checkout
+- Authentication logic
+
 

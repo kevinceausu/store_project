@@ -1,0 +1,44 @@
+ MANUAL TEST RESULTS – My Games Store
+
+-----------------------------------------
+✅ Test 1: Database Connection
+-----------------------------------------
+• Visited site and confirmed no connection errors
+• Ran dbtest.php
+• ✅ Connection successful
+
+-----------------------------------------
+✅ Test 2: User Registration & Login
+-----------------------------------------
+• Created a new user → redirected to login
+• Logged in with valid credentials → success
+• Tried invalid login → error message shown
+• ✅ Passed
+
+-----------------------------------------
+✅ Test 3: Admin Access Control
+-----------------------------------------
+• Logged in as regular user → no access to create.php
+• Logged in as admin → full access
+• ✅ Passed
+
+-----------------------------------------
+✅ Test 4: Add to Cart & View Cart
+-----------------------------------------
+• Added multiple products
+• Quantities reflected correctly
+• ✅ Passed
+
+-----------------------------------------
+✅ Test 5: Checkout and Stock Update
+-----------------------------------------
+• Checked stock before checkout
+• Completed checkout
+• Reloaded product page → stock reduced 
+
+-----------------------------------------
+✅ Test 6: Order History
+-----------------------------------------
+• Visited order history after placing order
+• Previous orders displayed
+• ✅ Passed
